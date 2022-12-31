@@ -10,3 +10,58 @@ body {
 }
 
 /* Add styles here! */
+
+html {
+  width: 1280px;
+  height: 832px;
+}
+
+/* header, main {
+  height: 50%;
+} */
+
+header {
+  padding-top: 96px;
+  margin-left: 264px;
+  margin-right: 240px;
+}
+
+.intro-chunk p {
+  font-size: 20px;
+  width: 415px;
+  height: 60px;
+}
+
+main {
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  background-color: hsl(0deg, 0%, 40%);
+  height: 450px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+h2 {
+  padding: 16px 32px;
+  display: inline-block;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: solid 8px hsl(45deg, 100%, 40%);
+  margin-top: -16px;
+  margin-left: -32px;
+  margin-bottom: 0px;
+}
+
+.card {
+  padding: 24px;
+  margin: 72px 240px;
+  background-color: white;
+  height: 312px;
+  width: 800px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
+.card p {
+  line-height: 1.5rem;
+  font-size: 20px;
+}
